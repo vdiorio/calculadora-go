@@ -14,6 +14,9 @@ func multiplicacao(a int, b int) int {
 	return a * b
 }
 
+func divisao(a int, b int) int {
+	return a / b
+}
 
 func main() {
 	var opcao int
