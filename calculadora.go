@@ -29,5 +29,12 @@ func main() {
 		fmt.Println("4. Divisão")
 		fmt.Println("5. Sair")
 		fmt.Scanln(&opcao)
+
+		switch opcao {
+		case 5:
+			fmt.Println("Saindo...")
+		default:
+			fmt.Println("Opção inválida")
+		}
 	}
 }
