@@ -18,6 +18,13 @@ func divisao(a int, b int) int {
 	return a / b
 }
 
+func printResult(result int) {
+	// ANSI escape code for green text
+	green := "\033[32m"
+	reset := "\033[0m"
+	fmt.Println("Result: ", green, result, reset)
+}
+
 func main() {
 	var opcao int
 
